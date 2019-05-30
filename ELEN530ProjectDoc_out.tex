@@ -1,0 +1,1060 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{color,pxfonts,fix-cm}
+\usepackage{latexsym}
+\usepackage[mathletters]{ucs}
+\DeclareUnicodeCharacter{32}{$\ $}
+\DeclareUnicodeCharacter{8712}{$\in$}
+\DeclareUnicodeCharacter{58}{$\colon$}
+\DeclareUnicodeCharacter{46}{\textperiodcentered}
+\DeclareUnicodeCharacter{60}{\textless}
+\DeclareUnicodeCharacter{62}{\textgreater}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{pict2e}
+\usepackage{wasysym}
+\usepackage[english]{babel}
+\usepackage{tikz}
+\pagestyle{empty}
+\usepackage[margin=0in,paperwidth=612pt, paperheight=792pt]{geometry}
+\begin{document}
+\definecolor{color_29791}{rgb}{0,0,0}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+
+
+\filldraw[color_29791][nonzero rule]
+(420.9776pt, -140.8924pt) -- (375.9776pt, -140.8924pt)
+ -- (177.1023pt, -140.8924pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(150.639,-126.607){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ELEN 530: Advanced Computer Applications for Engineers}
+\put(176.8787,-138.6898){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Dynamic Systems and Process Change Over Time}
+\put(243.1647,-150.7728){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Ashalynn Davis }
+\put(253.6607,-162.8558){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}S01623767}
+\put(235.3377,-174.9388){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} November 26, 2018 }
+\put(95.854,-199.16){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Introduction:}
+\put(138.374,-224.999){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Dynamic systems and logistic maps (a nonlinear dynamic systems) are }
+\put(95.85399,-239.499){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}used in many fields to evaluate how fixed variables behave over time. Dynamic }
+\put(95.85399,-253.999){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}systems are used fields such as  "Electrical, Electronics   and   Computer   }
+\put(95.85399,-268.499){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Engineering.   Dynamical   Systems   theory   describes general patterns found }
+\put(95.85399,-282.999){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}in the solution of systems of nonlinear equations. The theory focuses upon those }
+\put(95.85399,-297.499){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}equations representing the change of process in time."}
+\put(355.336,-293.779){\fontsize{7.92}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1}
+\put(359.296,-297.499){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} A logistic map model }
+\put(95.854,-311.999){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}we can model to evaluate its behavior is as follows:}
+\put(217.052,-347.256){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x}
+\put(223.052,-349.0559){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}i+1 }
+\put(242.153,-347.256){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}= f}
+\put(257.201,-347.256){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}(x}
+\put(267.197,-349.0559){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}i}
+\put(270.531,-347.256){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}), f}
+\put(285.795,-347.256){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}(x) = rx(1 − x) .}
+\put(95.85403,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}In }
+\put(110.046,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}our }
+\put(130.234,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}evaluation }
+\put(184.441,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}we }
+\put(202.641,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}will }
+\put(225.527,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}observe }
+\put(267.007,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the }
+\put(285.855,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}following: }
+\put(341.354,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the }
+\put(360.203,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}behavior }
+\put(406.367,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}of }
+\put(420.548,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r }
+\put(429.054,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}over }
+\put(454.5421,-383.589){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}a }
+\put(95.85406,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}period }
+\put(130.6821,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}of }
+\put(144.8561,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}time }
+\put(170.3741,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}and }
+\put(191.9031,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}how }
+\put(216.7511,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x}
+\put(222.7511,-399.7889){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}i+1 }
+\put(244.4361,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}and }
+\put(265.951,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x}
+\put(271.951,-399.7889){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}i }
+\put(280.8751,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}interact }
+\put(321.0471,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}in }
+\put(334.5691,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}regards }
+\put(374.0551,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}to }
+\put(387.593,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r. }
+\put(400.0721,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}W}
+\put(410.432,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}e }
+\put(419.951,-397.989){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}will evaluate }
+\put(95.85406,-412.701){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}behaviors }
+\put(146.6701,-412.701){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}and }
+\put(168.1871,-412.701){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}iterations }
+\put(217.0331,-412.701){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}by }
+\put(233.2411,-412.701){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}refering }
+\put(275.3691,-412.701){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}to }
+\put(288.8951,-412.701){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the }
+\put(307.7471,-412.701){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}bicurations }
+\put(365.2761,-412.701){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}points }
+\put(398.8021,-412.701){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}on the }
+\put(432.6501,-412.701){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}bicuration }
+\put(95.85406,-427.257){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}diagrams, }
+\put(147.0321,-427.257){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Poincar´}
+\put(182.1741,-427.257){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}e, }
+\put(194.6861,-427.257){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}and }
+\put(216.2021,-427.257){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}limited }
+\put(254.3981,-427.257){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}growth }
+\put(292.5981,-427.257){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}model }
+\put(326.7761,-427.257){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}logistic }
+\put(366.3101,-427.257){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}map. Bicuration }
+\put(447.8211,-427.257){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}points }
+\put(95.8541,-441.813){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}are }
+\put(114.6941,-441.813){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}also }
+\put(138.2211,-441.813){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}known }
+\put(175.0951,-441.813){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}as }
+\put(189.2911,-441.813){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}”attractors” }
+\put(248.8161,-441.813){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}which }
+\put(282.3241,-441.813){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}are }
+\put(301.1521,-441.813){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}points }
+\put(334.6901,-441.813){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}where the }
+\put(385.8531,-441.813){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system’s }
+\put(432.0391,-441.813){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}behavior }
+\put(95.8541,-456.369){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ceases }
+\put(130.6691,-456.369){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}even }
+\put(157.5011,-456.369){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}if }
+\put(169.0211,-456.369){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}it }
+\put(179.8831,-456.369){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}is }
+\put(192.0651,-456.369){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}chaotic }
+\put(230.8971,-456.369){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}and }
+\put(252.4251,-456.369){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}unstable}
+\put(95.85411,-483.8199){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Part }
+\put(119.9621,-483.8199){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1A:}
+\put(138.3741,-509.647){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}F}
+\put(144.0661,-509.647){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}rom evaluating r values, if r has only one bicuration point then r < 1 . }
+\put(95.85411,-524.0709){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}But if r }
+\put(133.522,-524.071){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}∈}
+\put(140.998,-524.071){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} [1, 4] there will be several bicuration points.Below are the results }
+\put(95.854,-538.647){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}from 80 individual timestamps.}
+\put(288.149,-737.13){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1}
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\begin{scope}
+\clip
+(57pt, -755.7161pt) -- (554.132pt, -755.7161pt)
+ -- (554.132pt, -755.7161pt)
+ -- (554.132pt, -744.796pt)
+ -- (554.132pt, -744.796pt)
+ -- (57pt, -744.796pt) -- cycle
+;
+\end{scope}
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-753.116){\fontsize{8}{1}\usefont{T1}{uarial}{m}{n}\selectfont\color{color_29791}1.}
+\put(65.888,-753.116){\fontsize{8}{1}\usefont{T1}{uarial}{m}{n}\selectfont\color{color_29791}Khan, Yousuf Ibrahim. “Applications of Dynamical Systems in Engineering." }
+\\
+\put(65.888,-761.116){\fontsize{8}{1}\usefont{T1}{uarial}{m}{n}\selectfont\color{color_29791}ArXiv.org, 2013, arxiv.org/ftp/arxiv/papers/1304/1304.5251.pdf}
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+
+\filldraw[color_29791][nonzero rule]
+(199.449pt, -132.595pt) -- (438.795pt, -132.595pt)
+ -- (438.795pt, -132.595pt)
+ -- (438.795pt, -131.9969pt)
+ -- (438.795pt, -131.9969pt)
+ -- (199.449pt, -131.9969pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(176.125,-115.459){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ELEN 530: Advanced Computer Applications for Engineers}
+\put(199.449,-129.905){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Dynamic Systems and Process Change Over Time}
+\put(438.8,-129.905){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(281.249,-144.351){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Ashalynn Davis}
+\put(293.335,-158.7969){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}S01623767}
+\put(270.986,-173.2429){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} November 26, 2018 }
+\put(95.854,-370.394){\includegraphics[width=226.772pt,height=170.079pt]{latexImage_6681ca573f843d43826b14d0df4a0966.png}}
+\put(325.227,-370.394){\includegraphics[width=226.772pt,height=170.079pt]{latexImage_0c57b992445725955050ebfad9377e24.png}}
+\put(95.854,-541.471){\includegraphics[width=226.772pt,height=170.079pt]{latexImage_31cab6b9be271009a8d468d8a3243bb3.png}}
+\put(287.199,-692.137){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}2}
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+
+\filldraw[color_29791][nonzero rule]
+(420.9776pt, -140.8924pt) -- (375.9776pt, -140.8924pt)
+ -- (177.1023pt, -140.8924pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(150.639,-126.607){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ELEN 530: Advanced Computer Applications for Engineers}
+\put(176.8787,-138.6898){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Dynamic Systems and Process Change Over Time}
+\put(243.1647,-150.7728){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Ashalynn Davis }
+\put(253.6607,-162.8558){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}S01623767}
+\put(235.3377,-174.9388){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} November 26, 2018 }
+\put(95.854,-370.394){\includegraphics[width=226.772pt,height=170.079pt]{latexImage_bb87b305bc49808277f69f2109624adf.png}}
+\put(325.227,-370.394){\includegraphics[width=226.772pt,height=170.079pt]{latexImage_f3df6e2afda84849c427af60b90dc557.png}}
+\put(95.854,-541.471){\includegraphics[width=226.772pt,height=170.079pt]{latexImage_7127e40b9fa0bd80c4b011acf9e63348.png}}
+\put(287.199,-692.137){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3}
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+
+\filldraw[color_29791][nonzero rule]
+(420.9776pt, -140.8924pt) -- (375.9776pt, -140.8924pt)
+ -- (177.1023pt, -140.8924pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(150.639,-126.607){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ELEN 530: Advanced Computer Applications for Engineers}
+\put(176.8787,-138.6898){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Dynamic Systems and Process Change Over Time}
+\put(243.1647,-150.7728){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Ashalynn Davis }
+\put(253.6607,-162.8558){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}S01623767}
+\put(235.3377,-174.9388){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} November 26, 2018 }
+\put(95.854,-213.098){\fontsize{11.955}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_29791}Part}
+\put(122.274,-213.098){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(130.222,-213.098){\fontsize{11.955}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_29791}1A}
+\put(147.09,-213.098){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(155.074,-213.098){\fontsize{11.955}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_29791}(continued)}
+\put(223.157,-213.098){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}:}
+\put(138.374,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}In}
+\put(149.086,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(151.764,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(180.337,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(182.906,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1,the}
+\put(208.227,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(210.795,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system}
+\put(245.679,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(248.281,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}increases}
+\put(293.231,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(295.8,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}positively}
+\put(344.552,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(347.013,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(373.649,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(376.289,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}r}
+\put(381.5648,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(384.2785,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(393.373,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(396.049,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}2.The}
+\put(425.279,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(427.883,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system}
+\put(462.767,-238.683){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.854,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}settles}
+\put(127.809,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(130.413,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}flatly}
+\put(156.701,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(159.269,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}after}
+\put(182.976,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(185.583,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}this}
+\put(204.472,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(207.075,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}point;}
+\put(236.927,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(239.459,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}this}
+\put(258.348,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(260.952,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}means}
+\put(292.847,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(295.451,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}there}
+\put(321.429,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(324.034,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}is}
+\put(331.889,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(334.565,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}one}
+\put(352.103,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(354.743,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}attractor}
+\put(400.195,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(402.692,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}point.}
+\put(432.543,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(435.076,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}In}
+\put(445.788,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(448.467,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(477.039,-253.117){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.854,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}2,the}
+\put(121.174,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(123.742,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system}
+\put(158.626,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(161.231,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}seems}
+\put(190.604,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(193.245,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}to}
+\put(203.634,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(206.31,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}oscillate}
+\put(247.279,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(249.776,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}between}
+\put(291.355,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(293.924,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}2}
+\put(299.77,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(302.446,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}points}
+\put(333.672,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(336.206,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(362.841,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(365.482,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}r}
+\put(370.7578,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(373.4715,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(382.565,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(385.242,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3}
+\put(391.076,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}.}
+\put(394.304,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1.}
+\put(403.389,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(406.0291,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}In}
+\put(416.7411,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(419.42,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(447.993,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(450.562,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3,the}
+\put(475.8831,-267.575){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.85406,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system}
+\put(130.7381,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(133.3421,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}is}
+\put(141.1961,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(143.8721,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}unstably}
+\put(187.7591,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(190.2551,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}oscillating}
+\put(241.6021,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(244.027,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}in}
+\put(253.759,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(256.4,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(272.635,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(275.275,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}positive}
+\put(314.618,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(317.115,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}direction}
+\put(361.91,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(364.371,-282.009){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(95.85403,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}r}
+\put(101.1298,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(103.8436,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(112.937,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(115.613,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3}
+\put(121.447,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}.}
+\put(124.675,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}5;}
+\put(133.76,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(136.4,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}this}
+\put(155.289,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(157.895,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}means}
+\put(189.791,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(192.395,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}there}
+\put(218.372,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(220.975,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}are}
+\put(236.564,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(239.206,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}four}
+\put(259.661,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(262.267,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}attractor}
+\put(307.72,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(310.216,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}points.In}
+\put(355.394,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(357.854,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(386.427,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(388.996,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}4,the}
+\put(414.317,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(416.885,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system}
+\put(451.769,-296.467){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.854,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}follows}
+\put(130.666,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(133.234,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}no}
+\put(145.572,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(148.215,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}pattern}
+\put(185.873,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(188.405,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(215.04,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(217.681,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}r}
+\put(222.9567,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(225.6705,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(234.764,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(237.441,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3}
+\put(243.275,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}.}
+\put(246.503,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}65.}
+\put(261.434,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(264.074,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}In}
+\put(274.786,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(277.465,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(306.038,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(308.607,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}5,}
+\put(317.693,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(320.333,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(336.567,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(339.2071,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system}
+\put(374.0911,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(376.6961,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}begins}
+\put(408.5791,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(411.1471,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}in}
+\put(420.8781,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(423.5201,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}an}
+\put(435.8581,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(438.5011,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}unstable}
+\put(481.4191,-310.913){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.85406,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}manner}
+\put(134.1691,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(136.7011,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}and}
+\put(155.5301,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(158.1371,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}then}
+\put(180.8631,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(183.4691,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}begins}
+\put(215.3521,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(217.92,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}to}
+\put(228.3091,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(230.9881,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}oscillate}
+\put(271.9571,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(274.4531,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}between}
+\put(316.0331,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(318.6021,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}two}
+\put(337.4431,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(340.0831,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}points}
+\put(371.3091,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(373.8421,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}after}
+\put(397.5491,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(400.1541,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1}
+\put(405.9881,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}/}
+\put(411.8201,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}4}
+\put(417.6661,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(420.3441,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}of}
+\put(429.7651,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(432.4441,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(448.6791,-325.359){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.85413,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}timesteps}
+\put(144.0441,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(146.5761,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}have}
+\put(170.2831,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(172.8881,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}passed}
+\put(206.1461,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(208.7511,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(235.3861,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(238.0271,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}r}
+\put(243.3029,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(246.0166,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(255.1101,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(257.7871,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3}
+\put(263.6211,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}.}
+\put(266.8491,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}84.}
+\put(281.7801,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(284.4201,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}In}
+\put(295.1321,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(297.8111,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(326.3841,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(328.9531,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}6,}
+\put(338.0391,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(340.6791,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(356.9131,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(359.5532,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system}
+\put(394.4372,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(397.0422,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}appear}
+\put(431.4602,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(434.0302,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}to}
+\put(444.4182,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(447.0942,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}have}
+\put(470.8012,-339.8051){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.85419,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}several}
+\put(130.6662,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(133.2342,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}attractor}
+\put(178.6862,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(181.1832,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}points}
+\put(212.4092,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(214.9432,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(241.5782,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(244.2191,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}r}
+\put(249.4949,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(252.2086,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(261.3022,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(263.9792,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3}
+\put(269.8132,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}.}
+\put(273.0412,-354.2511){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}95}
+\put(287.199,-692.137){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}4}
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+
+\filldraw[color_29791][nonzero rule]
+(420.9776pt, -140.8924pt) -- (375.9776pt, -140.8924pt)
+ -- (177.1023pt, -140.8924pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(150.639,-126.607){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ELEN 530: Advanced Computer Applications for Engineers}
+\put(176.8787,-138.6898){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Dynamic Systems and Process Change Over Time}
+\put(243.1647,-150.7728){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Ashalynn Davis }
+\put(253.6607,-162.8558){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}S01623767}
+\put(235.3377,-174.9388){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} November 26, 2018 }
+\put(95.85397,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_29791}Part}
+\put(122.274,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(126.733,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_29791}1B}
+\put(143.004,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}:}
+\put(138.374,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}In}
+\put(149.086,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(151.7998,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(180.372,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(183.0858,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}7,}
+\put(192.171,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(194.8848,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}we}
+\put(208.5421,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(211.2559,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}show}
+\put(236.655,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(239.3688,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(255.603,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(258.3167,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}relationship}
+\put(318.103,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(320.8167,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}between}
+\put(362.396,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(365.1097,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(371.756,-227.143){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}i}
+\put(374.6339,-227.143){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(376.4429,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}and}
+\put(395.2719,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(397.9857,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(404.6319,-227.143){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}i}
+\put(407.5089,-227.143){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}+1}
+\put(418.325,-227.143){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(420.1339,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}in}
+\put(429.8649,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(432.5787,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}regards}
+\put(469.6629,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(472.3767,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}to}
+\put(482.7649,-225.35){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.85391,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(112.0889,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(114.8027,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system}
+\put(149.6859,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(152.3997,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(159.0469,-242.404){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}i}
+\put(161.9239,-242.404){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}+1}
+\put(172.7389,-242.404){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(174.5479,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(183.6459,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(186.3597,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}f}
+\put(193.4069,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}(}
+\put(197.9499,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(204.5969,-242.404){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}i}
+\put(207.4739,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791})}
+\put(212.0159,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791},}
+\put(215.2559,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(217.9697,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}f}
+\put(225.0099,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}(}
+\put(229.5529,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(236.2047,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791})}
+\put(240.7429,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(243.4567,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(252.5539,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(255.2677,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}rx}
+\put(267.1869,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}(1}
+\put(277.5749,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(280.2887,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}−}
+\put(289.5779,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(292.2917,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(298.9434,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791})}
+\put(303.4809,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(306.1947,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}F}
+\put(312.8659,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}rom}
+\put(332.9979,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(335.7117,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(351.9469,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(354.6607,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}results}
+\put(387.9059,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(390.6197,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(406.8549,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(409.5687,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}follow}
+\put(439.7659,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(442.4797,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}two}
+\put(461.3209,-240.61){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.85388,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}statements}
+\put(151.1929,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(153.9067,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}are}
+\put(169.4959,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(172.2097,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}true}
+\put(192.9869,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(195.7007,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}about}
+\put(224.9179,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(227.6317,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(243.8669,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(246.5807,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}given}
+\put(273.5269,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(276.2407,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system:}
+\put(314.3639,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(317.0777,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(323.7249,-257.231){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}i}
+\put(326.6019,-257.231){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(328.4109,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}<}
+\put(337.5079,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(340.2216,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(346.8689,-257.231){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}i}
+\put(349.7459,-257.231){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}+1}
+\put(360.5609,-257.231){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(362.3699,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(389.0059,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(391.7196,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(398.3669,-257.231){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}i}
+\put(401.2439,-257.231){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(403.0529,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}<}
+\put(412.1498,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(414.8636,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0}
+\put(420.7098,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}.}
+\put(423.9498,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}5}
+\put(429.7958,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(432.5096,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}and}
+\put(451.3388,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(454.0526,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(460.6988,-257.231){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}i}
+\put(463.5758,-257.231){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(465.3848,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}>}
+\put(474.4828,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(477.1966,-255.438){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(483.8438,-257.231){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}i}
+\put(95.85382,-271.959){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}+1}
+\put(106.6688,-271.959){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(108.4778,-270.166){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(135.1138,-270.166){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(137.8276,-270.166){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(144.4738,-271.959){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}i}
+\put(147.3508,-271.959){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(149.1608,-270.166){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}>}
+\put(158.2578,-270.166){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(160.9716,-270.166){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0}
+\put(166.8178,-270.166){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}.}
+\put(170.0578,-270.166){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}5}
+\put(175.9038,-270.166){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(178.6176,-270.166){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}.}
+\put(95.854,-467.213){\includegraphics[width=226.772pt,height=170.079pt]{latexImage_697c82e172c08f55f72a077f3ae8815f.png}}
+\put(287.199,-692.137){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}5}
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+
+\filldraw[color_29791][nonzero rule]
+(420.9776pt, -140.8924pt) -- (375.9776pt, -140.8924pt)
+ -- (177.1023pt, -140.8924pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(150.639,-126.607){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ELEN 530: Advanced Computer Applications for Engineers}
+\put(176.8787,-138.6898){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Dynamic Systems and Process Change Over Time}
+\put(243.1647,-150.7728){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Ashalynn Davis }
+\put(253.6607,-162.8558){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}S01623767}
+\put(235.3377,-174.9388){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} November 26, 2018 }
+\put(95.85399,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_29791}Part}
+\put(122.274,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(126.733,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_29791}2}
+\put(133.452,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}:}
+\put(138.374,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Below}
+\put(169.397,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(172.087,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}is}
+\put(179.941,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(182.642,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}a}
+\put(188.488,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(191.189,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}bicuration}
+\put(243.121,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(245.739,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}diagram}
+\put(287.294,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(289.936,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}of}
+\put(299.356,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(302.058,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(318.293,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(320.982,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}results}
+\put(354.228,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(356.893,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}found}
+\put(385.788,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(388.4539,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}in}
+\put(398.1849,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(400.8749,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(429.4469,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(432.1129,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1-6}
+\put(447.7019,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(450.3919,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}in}
+\put(460.1229,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(462.8119,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Part}
+\put(485.7059,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.85391,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1A.}
+\put(113.7149,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(116.4039,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}The}
+\put(136.5479,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(139.2489,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}interval}
+\put(178.5209,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(181.1619,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}chosen}
+\put(215.0069,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(217.6839,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(231.6479,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(234.3359,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}this}
+\put(253.2249,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(255.9019,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}diagram}
+\put(297.4579,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(300.0989,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}is}
+\put(307.9529,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(310.6539,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1}
+\put(316.4879,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}.}
+\put(319.7159,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0}
+\put(325.5619,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(328.2639,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}<}
+\put(337.3609,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(340.0619,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}r}
+\put(345.3376,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(348.0514,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}<}
+\put(357.1449,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(359.8469,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}4}
+\put(365.6809,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}.}
+\put(368.9089,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0}
+\put(374.7549,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(377.4549,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}because}
+\put(416.4999,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(419.1779,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(435.412,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(438.101,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(442.644,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(445.3449,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}values}
+\put(476.9059,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.85394,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}we}
+\put(109.5113,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(112.2251,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}chose}
+\put(139.5729,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(142.2629,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}fall}
+\put(158.1629,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(160.8399,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}in}
+\put(170.5709,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(173.2599,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}this}
+\put(192.1489,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(194.8259,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}interval.The}
+\put(257.4819,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(260.0859,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}diagram}
+\put(301.6419,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(304.2829,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}shows}
+\put(334.3019,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(336.9899,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}how}
+\put(357.7799,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(360.4699,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}chaotic}
+\put(396.8369,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(399.502,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(415.7369,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(418.4259,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system}
+\put(453.3099,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(455.9869,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}is}
+\put(463.8409,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(466.5419,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}in}
+\put(476.2729,-254.524){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.85391,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}regards}
+\put(132.9379,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(135.6039,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}to}
+\put(145.9919,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(148.6929,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}its}
+\put(161.0899,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(163.7799,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}logistically}
+\put(218.0429,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(220.6479,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}map;}
+\put(245.9689,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(248.6349,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(264.8689,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(267.5579,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}diagram}
+\put(309.1129,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(311.7549,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}shows}
+\put(341.7729,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(344.4619,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}that}
+\put(365.8849,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(368.5629,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(384.7969,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(387.4859,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system}
+\put(422.3699,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(425.0479,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}is}
+\put(432.9019,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(435.6039,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}unstable}
+\put(478.5219,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.85394,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}in}
+\put(105.5849,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(108.2749,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(124.5099,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(127.1989,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}beginning}
+\put(176.5369,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(179.1659,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}but}
+\put(196.6919,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(199.3699,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}eventually}
+\put(251.9589,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(254.5879,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}calms.}
+\put(95.854,-481.359){\includegraphics[width=226.772pt,height=170.079pt]{latexImage_9e59cc82fb9b09bae90502e98c52fc5e.png}}
+\put(287.199,-692.137){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}6}
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+
+\filldraw[color_29791][nonzero rule]
+(420.9776pt, -140.8924pt) -- (375.9776pt, -140.8924pt)
+ -- (177.1023pt, -140.8924pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(150.639,-126.607){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ELEN 530: Advanced Computer Applications for Engineers}
+\put(176.8787,-138.6898){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Dynamic Systems and Process Change Over Time}
+\put(243.1647,-150.7728){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Ashalynn Davis }
+\put(253.6607,-162.8558){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}S01623767}
+\put(235.3377,-174.9388){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} November 26, 2018 }
+\put(95.854,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_29791}Part}
+\put(122.274,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(126.733,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_29791}3}
+\put(133.452,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}:}
+\put(138.374,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Below}
+\put(169.397,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(172.1108,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}is}
+\put(179.965,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(182.6788,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}a}
+\put(188.524,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(191.2378,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}bicuration}
+\put(243.17,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(245.8838,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}diagram}
+\put(287.439,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(290.1528,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}of}
+\put(299.573,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(302.2868,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(318.522,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(321.2358,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}results}
+\put(354.481,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(357.1948,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}found}
+\put(386.09,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(388.8038,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}in}
+\put(398.535,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(401.2488,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figuresfrom}
+\put(458.142,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(460.8558,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Part}
+\put(483.749,-225.632){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.85403,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1A.}
+\put(113.715,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(116.4288,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}The}
+\put(136.572,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(139.2858,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}interval(s)}
+\put(192.258,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(194.9718,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}chosen}
+\put(228.816,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(231.5298,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(245.493,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(248.2068,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(276.778,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(279.4918,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}8}
+\put(285.338,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(288.0518,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}and}
+\put(306.881,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(309.5948,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(338.167,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(340.8808,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}9}
+\put(346.726,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(349.4398,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}are}
+\put(365.029,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(367.7428,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}2}
+\put(373.589,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}.}
+\put(376.829,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}98}
+\put(388.521,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(391.2348,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}<}
+\put(400.332,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(403.0458,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}r}
+\put(408.3215,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(411.0353,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}<}
+\put(420.129,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(422.8428,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3}
+\put(428.689,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}.}
+\put(431.928,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}01}
+\put(443.62,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(446.3338,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}and}
+\put(465.163,-240.09){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.854,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3}
+\put(101.7,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}.}
+\put(104.94,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}448}
+\put(122.478,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791},}
+\put(125.717,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(128.4308,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}r}
+\put(133.7065,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(136.4203,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}<}
+\put(145.514,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(148.2278,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3}
+\put(154.074,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}.}
+\put(157.314,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}466}
+\put(174.852,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(177.5658,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}because}
+\put(216.61,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(219.3238,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(235.559,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(238.2728,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(242.815,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(245.5288,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}values}
+\put(277.089,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(279.8028,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}we}
+\put(293.4601,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(296.1739,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}are}
+\put(311.758,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(314.4718,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}focused}
+\put(351.891,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(354.6048,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}on}
+\put(366.942,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(369.6558,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}fall}
+\put(385.556,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(388.2698,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}in}
+\put(398.001,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(400.7148,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(416.949,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(419.6628,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}first}
+\put(439.854,-254.536){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.854,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}bicuration}
+\put(147.786,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(150.4998,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}and}
+\put(169.329,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(172.0428,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}second}
+\put(205.887,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(208.6008,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}bicuration,}
+\put(263.772,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(266.4858,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}respectively}
+\put(325.3427,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}.}
+\put(328.58,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(331.2938,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}After}
+\put(357.929,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(360.6428,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}evaluation,}
+\put(416.795,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(419.5088,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(435.743,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(438.4568,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}value}
+\put(465.403,-268.97){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.854,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}nearest}
+\put(132.292,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(135.0058,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}first}
+\put(155.198,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(157.9118,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}bicuration}
+\put(209.843,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(212.5568,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}is}
+\put(220.411,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(223.1248,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r=3}
+\put(242.611,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(245.3248,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}and}
+\put(264.154,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(266.8678,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(283.102,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(285.8158,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}value}
+\put(312.762,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(315.4758,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}nearest}
+\put(351.914,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(354.6278,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(370.863,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(373.5768,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}second}
+\put(407.421,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(410.1348,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}bicuration}
+\put(462.067,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(464.7808,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}is}
+\put(472.634,-283.416){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.854,-297.8621){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r=}
+\put(109.494,-297.8621){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(112.2078,-297.8621){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.45.}
+\put(136.225,-297.8621){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(138.9388,-297.8621){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Only}
+\put(163.937,-297.8621){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(166.6508,-297.8621){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(182.885,-297.8621){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(185.5988,-297.8621){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}second.}
+\put(95.854,-495.805){\includegraphics[width=226.772pt,height=170.079pt]{latexImage_d6e4e3295fcf4664b7e332fcf4106994.png}}
+\put(325.227,-495.805){\includegraphics[width=226.772pt,height=170.079pt]{latexImage_ab0a4992245d699f47f33673a60ed9f9.png}}
+\put(287.199,-692.137){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}7}
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\end{tikzpicture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+
+\filldraw[color_29791][nonzero rule]
+(420.9776pt, -140.8924pt) -- (375.9776pt, -140.8924pt)
+ -- (177.1023pt, -140.8924pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(150.639,-126.607){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ELEN 530: Advanced Computer Applications for Engineers}
+\put(176.8787,-138.6898){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Dynamic Systems and Process Change Over Time}
+\put(243.1647,-150.7728){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Ashalynn Davis }
+\put(253.6607,-162.8558){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}S01623767}
+\put(235.3377,-174.9388){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} November 26, 2018 }
+\put(95.854,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{b}{n}\selectfont\color{color_29791}Conclusion}
+\put(160.148,-200.047){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}:}
+\put(138.374,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}In}
+\put(149.086,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(151.787,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}conclusion,}
+\put(207.688,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(210.305,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}we}
+\put(223.9624,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(226.6762,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}evaluated}
+\put(275.698,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(278.34,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(294.575,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(297.264,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}behavior}
+\put(341.091,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(343.732,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}of}
+\put(353.152,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(355.854,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(372.089,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(374.778,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}dynamic}
+\put(417.959,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(420.6,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system}
+\put(455.484,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(458.162,-225.65){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(464.809,-227.444){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}i}
+\put(95.854,-242.416){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}+1}
+\put(106.669,-242.416){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(108.47,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(117.568,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(120.269,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}f}
+\put(127.304,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}(}
+\put(131.835,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(138.48,-242.416){\fontsize{7.97}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}i}
+\put(141.351,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791})}
+\put(145.88,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791},}
+\put(149.12,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(151.822,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}f}
+\put(158.85,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}(}
+\put(163.381,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(170.0328,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791})}
+\put(174.571,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(177.272,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(186.3701,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(189.0711,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}rx}
+\put(200.9791,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}(1}
+\put(211.3671,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(214.0681,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}−}
+\put(223.3571,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(226.0591,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(232.7108,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791})}
+\put(237.2481,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(239.9491,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791},as}
+\put(253.6491,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(256.3391,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}its}
+\put(268.7361,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(271.4261,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{it}\selectfont\color{color_29791}x}
+\put(278.0779,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(280.7916,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}values}
+\put(312.3471,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(315.0121,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}are}
+\put(330.6011,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(333.2901,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}compared}
+\put(382.6521,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(385.3051,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}its}
+\put(397.7021,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(400.3921,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}preceding}
+\put(449.0961,-240.622){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(95.8541,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}value.}
+\put(126.0401,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(128.6941,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}This}
+\put(151.4921,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(154.1811,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}system}
+\put(189.0651,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(191.7421,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}started}
+\put(227.5231,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(230.1881,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}chatotically}
+\put(289.5921,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(292.1971,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}and}
+\put(311.0261,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(313.7031,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}then}
+\put(336.4301,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(339.1071,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}became}
+\put(376.7891,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(379.4661,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}stable}
+\put(409.4011,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(412.0671,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}after}
+\put(435.7731,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(438.4511,-254.518){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}time.}
+\put(287.199,-692.137){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}8}
+\end{picture}
+\end{document}

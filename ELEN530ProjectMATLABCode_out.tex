@@ -1,0 +1,916 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{color,pxfonts,fix-cm}
+\usepackage{latexsym}
+\usepackage[mathletters]{ucs}
+\DeclareUnicodeCharacter{32}{$\ $}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{pict2e}
+\usepackage{wasysym}
+\usepackage[english]{babel}
+\usepackage{tikz}
+\pagestyle{empty}
+\usepackage[margin=0in,paperwidth=612pt, paperheight=792pt]{geometry}
+\begin{document}
+\definecolor{color_29791}{rgb}{0,0,0}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+
+\filldraw[color_29791][nonzero rule]
+(460.9776pt, -140.8924pt) -- (390.9776pt, -140.8924pt)
+ -- (136.8787pt, -140.8924pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(150.639,-126.607){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ELEN 530: Advanced Computer Applications for Engineers}
+\put(136.8787,-138.6898){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Dynamic Systems and Process Change Over Time(MATLAB Code)}
+\put(243.1647,-150.7728){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Ashalynn Davis }
+\put(253.6607,-162.8558){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}S01623767}
+\put(235.3377,-174.9388){\fontsize{12}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} November 26, 2018 }
+\put(113.413,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(1)}
+\put(132.828,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(136.509,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(144.879,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(148.572,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0.25;}
+\put(170.671,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(174.352,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(178.532,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(182.213,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(190.584,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(194.277,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}2.0;}
+\put(210.996,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(214.677,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}f=@(x)}
+\put(248.744,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(252.425,-197.684){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x*(1-x);}
+\put(113.413,-210.976){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}N}
+\put(121.487,-210.976){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(125.168,-210.976){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(133.539,-210.976){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(137.232,-210.976){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}80;}
+\put(113.413,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(126.261,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(129.942,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ii}
+\put(135.904,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(139.597,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(147.9669,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(151.6479,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1:N}
+\put(168.082,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(171.763,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(ii+1)}
+\put(205.5099,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(209.2029,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(217.5739,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(221.2549,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x(ii)*(1-x(ii));}
+\put(296.494,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(300.175,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}hold}
+\put(320.4799,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(324.1609,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}on;}
+\put(338.494,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(342.187,-224.268){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(113.4129,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}plot(x,’r’)}
+\put(159.084,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(162.812,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}axis([0}
+\put(193.634,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(197.362,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}80}
+\put(208.1199,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(211.8479,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0}
+\put(217.2269,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(220.9549,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1])}
+\put(233.4949,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(237.2229,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}title(’Logistic}
+\put(300.1419,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(303.8699,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Map:}
+\put(328.0699,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(333.1369,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Timestamps}
+\put(390.6329,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(394.3609,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(407.2079,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(410.9359,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(435.4439,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(439.1729,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(443.3529,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(447.0809,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(455.4509,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(457.9479,-237.549){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}2’)}
+\put(113.4129,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(1)}
+\put(132.8279,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(136.5089,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(144.8789,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(148.5719,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0.25;}
+\put(170.6709,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(174.3519,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(178.5319,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(182.2129,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(190.5839,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(194.2769,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.1;}
+\put(210.9959,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(214.6769,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}f=@(x)}
+\put(248.7439,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(252.4249,-265.297){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x*(1-x);}
+\put(113.4129,-278.589){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}N}
+\put(121.4869,-278.589){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(125.1679,-278.589){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(133.5389,-278.589){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(137.2319,-278.589){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}80;}
+\put(113.4129,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(126.2609,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(129.9419,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ii}
+\put(135.9039,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(139.5969,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(147.9669,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(151.6479,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1:N}
+\put(168.0819,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(171.7629,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(ii+1)}
+\put(205.5099,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(209.2029,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(217.5739,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(221.2549,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x(ii)*(1-x(ii));}
+\put(296.4939,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(300.1749,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}hold}
+\put(320.4799,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(324.1609,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}on;}
+\put(338.4939,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(342.1869,-291.881){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(113.4129,-305.254){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(113.4129,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}plot(x,’r’)}
+\put(159.0839,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(162.8119,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}axis([0}
+\put(193.6339,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(197.3619,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}80}
+\put(208.1199,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(211.8479,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0}
+\put(217.2269,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(220.9549,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1])}
+\put(233.4949,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(237.2229,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}title(’Logistic}
+\put(300.1419,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(303.8699,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Map:}
+\put(328.0699,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(333.1369,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Timestamps}
+\put(390.6329,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(394.3609,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(407.2079,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(410.9359,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(435.4439,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(439.1729,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(443.3529,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(447.0809,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(455.4509,-318.454){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} 3.1’)}
+\put(113.413,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(1)}
+\put(132.828,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(136.509,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(144.879,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(148.572,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0.25;}
+\put(170.671,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(174.352,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(178.532,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(182.213,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(190.584,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(194.277,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.5;}
+\put(210.996,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(214.677,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}f=@(x)}
+\put(248.744,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(252.425,-356.588){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x*(1-x);}
+\put(113.413,-369.88){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}N}
+\put(121.487,-369.88){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(125.168,-369.88){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(133.539,-369.88){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(137.232,-369.88){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}80;}
+\put(113.413,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(126.261,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(129.942,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ii}
+\put(135.904,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(139.597,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(147.9669,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(151.6479,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1:N}
+\put(168.082,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(171.763,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(ii+1)}
+\put(205.5099,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(209.2029,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(217.5739,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(221.2549,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x(ii)*(1-x(ii));}
+\put(296.494,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(300.175,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}hold}
+\put(320.4799,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(324.1609,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}on;}
+\put(338.494,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(342.187,-383.172){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(113.4129,-396.545){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(113.4129,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}plot(x,’r’)}
+\put(159.084,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(162.812,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}axis([0}
+\put(193.634,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(197.363,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}80}
+\put(208.121,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(211.849,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0}
+\put(217.228,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(220.957,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1])}
+\put(233.4969,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(237.2249,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}title(’Logistic}
+\put(300.144,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(303.8719,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Map:}
+\put(328.072,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(333.1389,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Timestamps}
+\put(390.6349,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(394.364,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(407.2109,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(410.9389,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(435.4469,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(439.1759,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(443.3559,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(447.0839,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(455.4539,-409.745){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} 3.5’)}
+\put(113.413,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(1)}
+\put(132.828,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(136.509,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(144.879,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(148.572,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0.25;}
+\put(170.671,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(174.352,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(178.532,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(182.213,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(190.584,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(194.277,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.65;}
+\put(216.375,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(220.056,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}f=@(x)}
+\put(254.123,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(257.804,-443.263){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x*(1-x);}
+\put(113.413,-456.555){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}N}
+\put(121.487,-456.555){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(125.168,-456.555){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(133.539,-456.555){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(137.232,-456.555){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}80;}
+\put(113.413,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(126.261,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(129.942,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ii}
+\put(135.904,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(139.597,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(147.967,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(151.648,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1:N}
+\put(168.082,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(171.763,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(ii+1)}
+\put(205.51,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(209.203,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(217.574,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(221.255,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x(ii)*(1-x(ii));}
+\put(296.494,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(300.175,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}hold}
+\put(320.4799,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(324.1609,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}on;}
+\put(338.494,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(342.187,-469.847){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(113.4129,-483.22){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(113.4129,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}plot(x,’r’)}
+\put(159.084,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(162.812,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}axis([0}
+\put(193.634,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(197.363,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}80}
+\put(208.121,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(211.849,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0}
+\put(217.228,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(220.957,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1])}
+\put(233.4969,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(237.2249,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}title(’Logistic}
+\put(300.144,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(303.8719,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Map:}
+\put(328.072,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(333.1389,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Timestamps}
+\put(390.6349,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(394.364,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(407.2109,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(410.9389,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(435.4469,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(439.1759,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(443.3559,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(447.0839,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(455.4539,-496.42){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.65’)}
+\put(113.413,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(1)}
+\put(132.828,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(136.509,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(144.879,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(148.572,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0.25;}
+\put(170.671,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(174.352,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(178.532,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(182.213,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(190.584,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(194.277,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.84;}
+\put(216.375,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(220.056,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}f=@(x)}
+\put(254.123,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(257.804,-529.938){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x*(1-x);}
+\put(113.413,-543.23){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}N}
+\put(121.487,-543.23){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(125.168,-543.23){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(133.539,-543.23){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(137.232,-543.23){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}80;}
+\put(113.413,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(126.261,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(129.942,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ii}
+\put(135.904,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(139.597,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(147.967,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(151.648,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1:N}
+\put(168.082,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(171.763,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(ii+1)}
+\put(205.51,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(209.203,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(217.574,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(221.255,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x(ii)*(1-x(ii));}
+\put(296.494,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(300.175,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}hold}
+\put(320.4799,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(324.1609,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}on;}
+\put(338.494,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(342.187,-556.522){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(113.4129,-569.895){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(113.4129,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}plot(x,’r’)}
+\put(159.084,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(162.812,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}axis([0}
+\put(193.634,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(197.363,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}80}
+\put(208.121,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(211.849,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0}
+\put(217.228,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(220.957,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1])}
+\put(233.4969,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(237.2249,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}title(’Logistic}
+\put(300.144,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(303.8719,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Map:}
+\put(328.072,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(333.1389,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Timestamps}
+\put(390.6349,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(394.364,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(407.2109,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(410.9389,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(435.4469,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(439.1759,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(443.3559,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(447.0839,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(455.4539,-583.095){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} 3.84’)}
+\put(113.413,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(1)}
+\put(132.828,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(136.509,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(144.879,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(148.572,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0.25;}
+\put(170.671,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(174.352,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(178.532,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(182.213,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(190.584,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(194.277,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.95;}
+\put(216.375,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(220.056,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}f=@(x)}
+\put(254.123,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(257.804,-616.701){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x*(1-x);}
+\put(113.413,-629.912){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}N}
+\put(121.487,-629.912){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(125.168,-629.912){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(133.539,-629.912){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(137.232,-629.912){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}80;}
+\put(113.413,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(126.261,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(128.758,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ii}
+\put(134.72,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(137.217,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(145.587,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(148.084,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1:N}
+\put(164.518,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(167.015,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(ii+1)}
+\put(200.762,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(203.259,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(211.63,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(214.127,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x(ii)*(1-x(ii));}
+\put(289.366,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(291.863,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}hold}
+\put(312.168,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(314.665,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}on;}
+\put(328.998,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(331.495,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(348.226,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(350.723,-643.112){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(287.199,-692.137){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1}
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(83.457,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}plot(x,’r’)}
+\put(129.128,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(132.857,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}axis([0}
+\put(163.679,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(167.408,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}80}
+\put(178.166,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(181.894,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0}
+\put(187.273,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(191.002,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1])}
+\put(203.542,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(207.271,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}title(’Logistic}
+\put(270.19,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(273.919,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Map:}
+\put(298.119,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(303.187,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Timestamps}
+\put(360.683,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(364.411,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(377.259,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(380.988,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}when}
+\put(405.496,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(409.225,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r}
+\put(413.405,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(417.134,-125.472){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(65.89801,-138.511){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.95’)}
+\put(83.45701,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}n}
+\put(89.43001,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(91.85501,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(100.226,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(102.651,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}(0:0.01:1)}
+\put(146.848,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(149.273,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x}
+\put(154.949,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(157.374,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(165.745,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(168.17,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0.5}
+\put(181.909,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(184.333,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}a}
+\put(189.712,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(192.137,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(200.508,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(202.933,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}2.*n.*(1-n)}
+\put(254.302,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(256.727,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}b}
+\put(262.7,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(265.125,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(273.496,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(275.921,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.1.*n.*(1-n)}
+\put(335.65,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(338.075,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}c}
+\put(342.86,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(345.285,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(353.656,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(356.081,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.5.*n.*(1-n)}
+\put(415.81,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(418.235,-151.735){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}d}
+\put(65.89795,-165.016){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(74.26895,-165.016){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(76.65895,-165.016){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.65.*n.*(1-n)}
+\put(141.767,-165.016){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(144.157,-165.016){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}e}
+\put(148.9417,-165.0164){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(151.3197,-165.0164){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(159.6907,-165.0164){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(162.0807,-165.0164){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.84.*n.*(1-n)}
+\put(227.1887,-165.0164){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(229.5667,-165.0164){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}f}
+\put(232.8557,-165.0164){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(235.2457,-165.0164){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(243.6167,-165.0164){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(245.9937,-165.0164){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.95.*n.*(1-n)}
+\put(311.1027,-165.0164){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(313.4927,-165.0164){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}plot(n,a,’r’,n,b,’g’,n,c,’b’,n,d,’m’,n,e,’y’,n,f,’c’)}
+\put(527.7917,-165.0164){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(65.89774,-178.3194){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}legend(’r=2.0’,}
+\put(135.1857,-178.3194){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(137.8267,-178.3194){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}’r=3.1’,’r=3.65’,’r}
+\put(220.8317,-178.3194){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(223.2097,-178.3194){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(231.5807,-178.3194){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(233.9707,-178.3194){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.84’,}
+\put(259.0497,-178.3194){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(261.6907,-178.3194){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}’r=3.95’)}
+\put(303.5017,-178.3194){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(305.8918,-178.3194){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}xlabel(’x’,}
+\put(352.4648,-178.3194){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(355.1057,-178.3194){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}’fontsize’,18,’fontname’,}
+\put(65.89774,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}’times’)}
+\put(101.1957,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(105.8927,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ylabel(’f(x)}
+\put(158.1527,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(162.8497,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}as}
+\put(172.4747,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(177.1837,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}a}
+\put(182.5627,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(187.2598,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}F}
+\put(193.3087,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}unction}
+\put(228.5527,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(233.2487,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x’,}
+\put(244.8867,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(249.8467,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}’fontsize’,18,’fontname’,’times’)}
+\put(396.3098,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(401.0067,-191.6114){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}title(}
+\put(65.89774,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}’Limted}
+\put(102.4837,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(106.1637,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Growth}
+\put(142.1007,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(145.7817,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Model}
+\put(174.7667,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(178.4587,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Logistic}
+\put(215.1107,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(218.7917,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Map:}
+\put(242.9918,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(247.9758,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}(f(x)}
+\put(269.4798,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(273.1608,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}vs.}
+\put(286.0638,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(291.0598,-204.8924){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x)’)}
+\put(83.45679,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}clear}
+\put(105.5668,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(109.8218,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}scale}
+\put(131.9968,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(136.2518,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(144.6228,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(148.8898,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}10000;}
+\put(178.7658,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(183.3188,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}maxpoints}
+\put(232.0698,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(236.3368,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(244.7078,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(248.9628,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}200;}
+\put(268.0808,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(272.6218,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}N}
+\put(280.6958,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(284.9498,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(293.3208,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(297.5878,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3000;}
+\put(322.0848,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(326.6378,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}a}
+\put(332.0168,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(336.2718,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(344.6428,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(348.8978,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1.0;}
+\put(365.6168,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(370.1588,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}b}
+\put(376.1318,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(380.3868,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(388.7578,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(393.0248,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}4;}
+\put(401.3848,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(405.9258,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}rs}
+\put(414.3507,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(418.6057,-218.1954){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(65.89774,-231.4764){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}linspace(a,b,N);}
+\put(139.7287,-231.4764){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(143.4097,-231.4764){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}M}
+\put(153.2789,-231.4764){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(156.9697,-231.4764){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(165.3407,-231.4764){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(169.0217,-231.4764){\fontsize{11}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}500;}
+\put(65.062,-258.292){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(82.92994,-258.292){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}j}
+\put(90.41616,-258.292){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(103.4065,-258.292){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1:length(rs)}
+\put(65.062,-272.738){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r=rs(j);}
+\put(107.7079,-272.738){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x=zeros(M,1);}
+\put(184.5044,-272.738){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(1)}
+\put(209.5501,-272.738){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(222.5404,-272.738){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0.5;}
+\put(65.062,-287.184){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(82.92994,-287.184){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}i}
+\put(90.09099,-287.184){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(103.0813,-287.184){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}2:M,}
+\put(130.0494,-287.184){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(i)}
+\put(152.4937,-287.184){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(165.484,-287.184){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x(i-1)*(1-x(i-1));}
+\put(264.3208,-287.184){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(65.062,-301.629){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}outj}
+\put(89.43346,-301.629){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(102.4477,-301.629){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}unique(ro}
+\put(151.5493,-301.629){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}und(scale*x(end-maxp}
+\put(267.0489,-301.629){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}oin}
+\put(282.3346,-301.629){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ts:end)));}
+\put(333.7602,-301.629){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(65.062,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}data}
+\put(90.4305,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(102.1177,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}[];}
+\put(114.9096,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(131.4744,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}k}
+\put(140.2589,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(151.9581,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1:l}
+\put(164.3028,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ength(rs)}
+\put(213.7989,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}n}
+\put(222.9086,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(234.5958,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}length(outk);}
+\put(304.9438,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}data}
+\put(330.2885,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(341.9996,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}[data;}
+\put(374.2781,-316.075){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}rs(k)*ones(n,1),outk];}
+\put(64.321,-331.572){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(81.88,-345.918){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(110.452,-345.918){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(113.047,-345.918){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}h=plot(data(:,1),data(:,2)/scale,’k.’);}
+\put(301.671,-345.918){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(304.707,-345.918){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}set(h,’mar}
+\put(356.7041,-345.918){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}k}
+\put(362.5477,-345.918){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ersize’,1)}
+\put(407.411,-345.918){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(410.016,-345.918){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}axis}
+\put(429.885,-345.918){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(432.48,-345.918){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}tigh}
+\put(452.2823,-345.918){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}t}
+\put(456.82,-345.918){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(64.32101,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}set(gca,}
+\put(103.354,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(106.952,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}’xlim’,}
+\put(139.063,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(142.661,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}[1.0}
+\put(160.833,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(164.348,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}4.0]);}
+\put(190.302,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(193.948,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}set(gcf,’color’,’white’)}
+\put(304.052,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(307.567,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}axis}
+\put(327.436,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(330.963,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}on}
+\put(343.3,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(346.815,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}title(}
+\put(372.123,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(375.6501,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}’Bicurati}
+\put(420.2637,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}on}
+\put(432.6031,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(436.1291,-360.364){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Di-}
+\put(64.32104,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}agram}
+\put(96.14504,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(100.043,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}of}
+\put(109.463,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(113.373,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(129.607,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(133.505,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Logistic}
+\put(173.339,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(177.236,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Map:}
+\put(203.537,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(208.738,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}(x}
+\put(219.449,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(223.359,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}vs.}
+\put(237.382,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(242.582,-374.81){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r)’)}
+\put(81.88004,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}clear}
+\put(105.909,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(109.914,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}scale}
+\put(134.015,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(138.02,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(147.117,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(151.122,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}10000;}
+\put(183.592,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(187.656,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}maxp}
+\put(216.2333,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}oin}
+\put(231.4831,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ts}
+\put(240.64,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(244.6451,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(253.7421,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(257.7471,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}50;}
+\put(272.6791,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(276.7431,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}N}
+\put(285.518,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(289.5231,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(298.6211,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(302.6251,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}30;}
+\put(317.5571,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(321.6221,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}a}
+\put(327.4681,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(331.4721,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(340.5701,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(344.5751,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}2.91;}
+\put(368.5921,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(372.6451,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}b}
+\put(379.1361,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(383.1531,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(392.2501,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(396.2551,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.005;}
+\put(426.1191,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(430.1711,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}rs}
+\put(439.3281,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(443.3331,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(452.4311,-389.256){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(64.32111,-403.7021){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}linspace(a,b,N);}
+\put(144.5621,-403.7021){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(148.4601,-403.7021){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}M}
+\put(159.1861,-403.7021){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(163.0931,-403.7021){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(172.1911,-403.7021){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(176.0881,-403.7021){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}500;}
+\put(64.537,-421.925){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(82.40495,-421.925){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}j}
+\put(89.89117,-421.925){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(102.8815,-421.925){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1:length(rs)}
+\put(64.537,-436.371){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r=rs(j);}
+\put(107.1829,-436.371){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x=zeros(M,1);}
+\put(183.9794,-436.371){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(1)}
+\put(209.0251,-436.371){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(222.0154,-436.371){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0.5;}
+\put(64.537,-450.817){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(82.40495,-450.817){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}i}
+\put(89.56599,-450.817){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(102.5563,-450.817){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}2:M,}
+\put(129.5244,-450.817){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(i)}
+\put(151.9687,-450.817){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(164.959,-450.817){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x(i-1)*(1-x(i-1));}
+\put(263.7958,-450.817){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(64.537,-465.262){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}outj}
+\put(88.90846,-465.262){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(101.9227,-465.262){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}unique(r}
+\put(145.1711,-465.262){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ound(scale*x(end-maxp}
+\put(266.5239,-465.262){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}oin}
+\put(281.8096,-465.262){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ts:end)));}
+\put(333.2352,-465.262){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(64.537,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}data}
+\put(89.90551,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(101.5927,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}[];}
+\put(114.3846,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(130.9494,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}k}
+\put(139.7339,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(151.4331,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1:l}
+\put(163.7778,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ength(rs)}
+\put(213.2739,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}n}
+\put(222.3717,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(234.0708,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}length(outk);}
+\put(304.4188,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}data}
+\put(329.7634,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(341.4745,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}[data;}
+\put(373.7531,-479.708){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}rs(k)*ones(n,1),outk];}
+\put(64.321,-492.052){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(81.88,-506.398){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(110.452,-506.398){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(113.047,-506.398){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}h=plot(data(:,1),data(:,2)/scale,’k.’);}
+\put(301.671,-506.398){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(304.707,-506.398){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}set(h,’ma}
+\put(352.1516,-506.398){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}rk}
+\put(362.5357,-506.398){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ersize’,1)}
+\put(407.411,-506.398){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(410.016,-506.398){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}axis}
+\put(429.885,-506.398){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(432.48,-506.398){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}tigh}
+\put(452.2823,-506.398){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}t}
+\put(456.82,-506.398){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(64.32101,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}set(gca,}
+\put(103.354,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(107.968,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}’xlim’,}
+\put(140.079,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(144.693,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}[2.98}
+\put(168.711,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(173.183,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.01]);}
+\put(204.983,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(209.74,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}set(gcf,’color’,’white’)}
+\put(319.844,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(324.316,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}axis}
+\put(344.185,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(348.655,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}on}
+\put(360.993,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(365.465,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}title(}
+\put(390.773,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(395.244,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}’Bicuration}
+\put(452.209,-520.844){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(64.32104,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Diagram}
+\put(108.315,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(112.2131,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}of}
+\put(121.6331,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(125.5431,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}the}
+\put(141.7771,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(145.675,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Logistic}
+\put(185.509,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(189.4061,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}Map:}
+\put(215.707,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(220.9081,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}(x}
+\put(231.619,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(235.5291,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}vs.}
+\put(249.5521,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(254.7521,-535.29){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r)’)}
+\put(81.88008,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}clear}
+\put(105.9091,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(109.7711,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}scale}
+\put(133.8721,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(137.7461,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(146.8431,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(150.7051,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}10000;}
+\put(183.1751,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(187.0601,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}m}
+\put(196.7914,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}axp}
+\put(215.6373,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}oin}
+\put(230.8751,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ts}
+\put(240.0321,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(243.9061,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(253.0031,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(256.8651,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}400;}
+\put(277.6431,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(281.5281,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}N}
+\put(290.303,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(294.1651,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(303.2631,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(307.136,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}30}
+\put(318.8185,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791};}
+\put(322.0561,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(325.942,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}a}
+\put(331.7881,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(335.649,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(344.747,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(348.62,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.41}
+\put(369.398,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(373.26,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}b}
+\put(379.751,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(383.625,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(392.723,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(396.584,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.465;}
+\put(426.448,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(430.321,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}rs}
+\put(439.479,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(443.352,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(452.45,-549.736){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(64.32095,-564.182){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}linspace(a,b,N);}
+\put(144.562,-564.182){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(148.4599,-564.182){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}M}
+\put(159.186,-564.182){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(163.0929,-564.182){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(172.1909,-564.182){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(176.088,-564.182){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}500;}
+\put(64.011,-581.793){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(77.974,-581.793){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(81.872,-581.793){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}j}
+\put(85.44894,-581.793){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(89.356,-581.793){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(98.454,-581.793){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(102.351,-581.793){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1:length(rs)}
+\put(64.011,-596.239){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r=rs(j);}
+\put(102.708,-596.239){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(106.606,-596.239){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x=zeros(M,1);}
+\put(179.411,-596.239){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(183.309,-596.239){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(1)}
+\put(204.409,-596.239){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(208.318,-596.239){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(217.416,-596.239){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(221.314,-596.239){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}0.5;}
+\put(64.01102,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(77.97401,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(81.87202,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}i}
+\put(85.11201,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(89.02101,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(98.11901,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(102.017,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}2:M,}
+\put(125.066,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(128.963,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}x(i)}
+\put(147.457,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(151.367,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(160.464,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(164.362,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}r*x(i-1)*(1-x(i-1));}
+\put(259.14,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(263.037,-610.685){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(64.01102,-625.131){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}outj}
+\put(84.46602,-625.131){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(88.36302,-625.131){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(97.46102,-625.131){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(101.371,-625.131){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}unique(round(scale*x(end-maxpoints:end)));}
+\put(328.418,-625.131){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(332.315,-625.131){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(64.01105,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}data}
+\put(86.73705,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(89.34405,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(98.44205,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(101.035,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}[];}
+\put(110.7541,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(113.791,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}for}
+\put(127.754,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(130.349,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}k}
+\put(136.5181,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(139.1241,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(148.222,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(150.828,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}1:length(rs)}
+\put(209.968,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(212.575,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}n}
+\put(219.066,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(221.66,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(230.758,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(233.364,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}length(outk);}
+\put(300.551,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(303.587,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}data}
+\put(326.314,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(328.908,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}=}
+\put(338.006,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(340.611,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}[data;}
+\put(369.817,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791} }
+\put(372.842,-639.565){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}rs(k)*ones(n,1),outk];}
+\put(63.795,-658.314){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}end}
+\put(287.199,-692.137){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}2}
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(113.413,-127.753){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}figure}
+\put(144.6227,-127.753){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}h=plot(data(:,1),data(:,2)/scale,’k.’);}
+\put(336.6511,-127.753){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}set(h,’mar}
+\put(388.7318,-127.753){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}k}
+\put(394.5874,-127.753){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}ersize’,1)}
+\put(442.1324,-127.753){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}axis}
+\put(464.627,-127.753){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}tigh}
+\put(484.4651,-127.753){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}t}
+\put(95.854,-142.199){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}set(gca,}
+\put(138.837,-142.199){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}’xlim’,}
+\put(174.9387,-142.199){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}[3.4}
+\put(197.0459,-142.199){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3.5]);}
+\put(226.9573,-142.199){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}set(gcf,’color’,’white’)}
+\put(341.1539,-142.199){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}axis}
+\put(364.9515,-142.199){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}on}
+\put(287.199,-692.137){\fontsize{11.955}{1}\usefont{T1}{ptm}{m}{n}\selectfont\color{color_29791}3}
+\end{picture}
+\end{document}
